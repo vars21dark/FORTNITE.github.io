@@ -1,0 +1,9 @@
+.head{
+	text-align:center;
+	width:100%;
+	height:400px;
+	background:url(1.jpg);
+}
+body{
+	background:red;
+}

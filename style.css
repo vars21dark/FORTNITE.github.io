@@ -1,0 +1,239 @@
+.head{
+	text-align:center;
+	width:100%;
+	height:150px;
+	background:url(1.jpg);
+	background-size:cover;
+	margin:0;
+	padding:0;
+    color:#7B68EE;
+}
+body{
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+nav ul{text-align:center;list-style:none;margin:10px;padding:0;}
+nav a{text-decoration:none;display:block;}
+.topmenu{background:white;}
+.topmenu>li{display:inline-block;position:relative;box-shadow:0 0 5px 2px;}
+.topmenu>li>a{background:#D3D3D3;height:70px; line-height:70px; padding:0 30px;font-weight:bold;color:black;}
+.topmenu li a:hover {color:white;}
+.submenu{background:red;
+	border:2px solid black;
+	position:absolute;
+	visibility:hidden;
+	opacity:0;
+	z-index:5;
+	width:120px;
+transform:perspective(600px) rotateX(-90deg);
+transform-origin:0% 0%;
+transition:.6s ease-in-out;
+}
+.topmenu>li:hover .submenu{visibility:visible;
+opacity:1;
+transform:perspective(600px)
+rotateX(0deg);color:black;}
+.submenu li a{color:pink;
+	font-size:15px;
+	line-height:36px;
+	padding:0 5px;
+	 }
+.GLdiv{
+	width:100%;
+}
+.c1{
+	width:22%;
+	float:left;
+	box-shadow:0 0 5px 2px #C0C0C0;
+	margin:10px;
+	padding:10px;
+}
+.k1{
+	background:url(0b262b5f90f2b87bfcfc847bc0cb777b81eb3b00.png) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k2{
+	background:url(3089208_1604567945.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k3{
+	background:url(4054602.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k4{
+	background:url(100025798518b0.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k5{
+	background:url(A7U1_1_2019121870397407.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k6{
+	background:url(c4ec6ebb15c2a18f12df55d676e8a4d7.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k7{
+	background:url(Christmas_Brown_haired_506618.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k8{
+	background:url(fonstola.ru_232498_1024x768.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k9{
+	background:url(gkfnmt.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k10{
+	background:url(igrushki-elochnye-zvezda-shariki.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k11{
+	background:url(NEW-cartoon.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.k12{
+	background:url(o1Pqp8S0aQw.jpg) no-repeat;
+	width:95%;
+	height:300px;
+	background-size:cover;
+	margin-left:6.5px;
+}
+.g1{
+	background:#7FFF00;
+	width:100%;
+	height:60px;
+	text-align:center;
+	font-size:36px;
+	text-decoration:none;
+	color:white;
+}
+.g1>a{
+	background:#7FFF00;
+	width:100%;
+	height:60px;
+	text-align:center;
+	font-size:36px;
+	text-decoration:none;
+	color:white;
+}
+.view{
+	width:70%;
+	height:80px;
+	text-align:left;
+	margin-left:33%;
+	padding-top:60px;
+}
+.e1{
+	width:100%;
+	background:url(2020-12-08-07-33-28.jpg);
+	background-size:cover;
+	height:400px;
+    font-size:100px;	
+	margin:10px;
+}
+.e3{
+	width:100%;
+	background:url(2020-12-08-07-33-59.jpg);
+	background-size:cover;
+	height:400px;
+    font-size:100px;
+    	margin:10px;
+
+}
+.e2{
+	width:100%;
+	background:url(2020-12-08-07-34-18.jpg);
+	background-size:cover;
+	height:400px;
+    font-size:100px;
+    	margin:10px;
+
+}
+.e4{
+	width:100%;
+	background:url(2020-12-08-07-32-45.jpg);
+	background-size:cover;
+	height:400px;
+    font-size:100px;
+    	margin:10px;
+
+}
+.Ella1{
+	background:url(nb.jpeg)10%;
+	background-size:cover;
+	width:35%;
+	height:600px;
+	float:left;
+	margin-top:210px;
+}
+.Ella2{
+	background:url(nb.jpeg) 10%;
+	background-size:cover;
+	width:35%;
+	height:600px;
+	float:left;
+	margin-top:200px;
+}
+.mus{
+	width:27%;
+	float:left;
+	margin-left:-50px;
+}
+.viet{
+	width:100%;
+	height:600px;
+}
+.st{
+	color:#696969;
+}
+.Dc{
+	width:50%;
+	float:left;
+	height:410px
+}
+.Da{
+	width:50%;
+	float:left;
+	height:410px;
+}
+.XXX{
+	width:100%;
+	height:200px;
+	text-align:center;
+	background:#696969;
+}
